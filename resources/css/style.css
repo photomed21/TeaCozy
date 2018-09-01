@@ -1,0 +1,123 @@
+body{
+font-family: helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 0px;
+}
+
+/*Header*/
+header{
+  display: flex;
+  background-color: black;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+header img{
+  height: 50px;
+  align-self: center;
+}
+.menu li{
+  display: inline-block;
+  text-decoration: underline;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.menu{
+  width: 100%;
+  text-align: right;
+  margin-right: 30px;
+}
+.menu a{
+  color: seashell;
+}
+.container{
+  position: relative;
+  top: 70px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+/*Mission*/
+#mission{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin-bottom: 50px;
+}
+#missionText{
+  color: seashell;
+  height: 150px;
+  align-self: center;
+  background-color: black;
+  width: 1200px;
+}
+
+/*Menu*/
+#teaMonth{
+  display: flex;
+  flex-direction: column;
+  height: 730px;
+  width: 1000px;
+  margin: 0 auto 50px auto;
+}
+.months{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.monthBox{
+  width: 300px;
+  height: 200px;
+  margin: 0px 10px 75px 10px;
+}
+.monthBox img{
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+.monthBox h4{
+  margin: 5px;
+}
+
+/*Location*/
+.locationsTitle{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 50px;
+}
+#locations{
+  display: flex;
+  justify-content: center;
+}
+.locationsBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+/*Contact*/
+#contact{
+  display: flex;
+  flex-direction: column;
+  height: 200px
+}
+footer{
+  text-align: left;
+  margin-left: 20px;
+}
